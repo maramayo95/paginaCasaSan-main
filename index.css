@@ -1,0 +1,46 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.banner img {
+    width: 100vw;
+    height: 800px;
+}
+
+.seccion-kermese{
+    display:flex;
+    flex-direction: column;
+
+}
+
+footer .contacto {
+    display:flex; 
+    justify-content: center;
+    
+}
+footer .contacto li {
+    list-style: none;
+}
+footer .contacto li a {
+    text-decoration: none;
+    color:#fafafa;
+    padding: 20px ;
+    
+}
+
+
+@media (max-width: 500px) {
+    .seccion-kermese img {
+        width: 300px;
+    }
+    footer .contacto {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        padding:30px;
+    }
+    footer .contacto li a {
+        margin: 10px;
+    }
+}
+
